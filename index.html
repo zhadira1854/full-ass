@@ -11,17 +11,19 @@
 
 
 <body>
+
 <script>
     let audio = new Audio("erke1.mp3");
     audio.play();
 </script>
+
 <div class="container pt-5 my-5 border bg-primary text-center">
     <h1 class="display-2">Erke</h1>
     <p class="text-danger"><kbd>made in Kazakhstan</kbd></p>
 </div>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="Erke.html">Main</a>
+        <a class="navbar-brand" href="index.html">Main</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +50,7 @@
 
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- button controls -->
+    <!-- button -->
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -101,7 +103,7 @@
             event.target.style.color = "black";
 
             setTimeout(function() {
-                event.target.style.color = "";
+                event.target.style.color = "gray";
             },500);
         }, false);
     </script>
